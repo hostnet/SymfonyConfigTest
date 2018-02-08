@@ -1,25 +1,16 @@
 {
-    "name": "matthiasnoback/symfony-config-test",
-    "type": "library",
+    "name":        "hostnet/symfony-config-test",
+    "type":        "library",
     "description": "Library for testing user classes related to the Symfony Config Component",
-    "keywords": ["symfony", "config", "phpunit"],
-    "homepage": "https://github.com/matthiasnoback/SymfonyConfigTest",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Matthias Noback",
-            "email": "matthiasnoback@gmail.com",
-            "homepage": "http://php-and-symfony.matthiasnoback.nl"
-        }
-    ],
+    "license":     "MIT",
     "require": {
-        "php": "^7.0",
-        "symfony/config": "^2.3 || ^3.0 || ^4.0"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "^6.0"
+        "php":             "^7.0",
+        "phpunit/phpunit": "^6.0 || ^7.0",
+        "symfony/config":  "^2.3 || ^3.0 || ^4.0"
     },
     "autoload": {
-        "psr-4" : { "Matthias\\SymfonyConfigTest\\" : "" }
+        "psr-4": {
+            "Matthias\\SymfonyConfigTest\\": ""
+        }
     }
 }
