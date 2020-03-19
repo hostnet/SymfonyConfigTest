@@ -1,3 +1,8 @@
+**IMPORTANT:** This package is no longer maintained, please consider using the original source: https://github.com/SymfonyTest/SymfonyConfigTest.
+
+----------
+
+
 # SymfonyConfigTest
 
 *By Matthias Noback*
